@@ -1,0 +1,59 @@
+body{
+background-image: url(http://all4desktop.com/data_images/original/4237632-nfl.jpg); 
+z-index: -2;
+}
+
+header{
+	text-align: center;
+	font-size: 50px;
+	color: red;
+
+
+}
+
+footer{
+	text-align: center;
+	clear: both;
+	color: red;
+	/*border: solid;*/
+	position: absolute fixed;
+
+
+
+}
+
+img{
+	width: 90%;
+	height: 90%;
+}
+.score{
+	color: red;
+	border: solid red;
+	clear: both;
+	width: 500px;
+
+}
+.team{
+	color: white;
+	width: 200px;
+	height:200px;
+	text-align: center;
+	margin:10px 60px 0 20px;
+	border:solid #ccc;
+	display: inline-block;
+	z-index: -1;
+}
+
+.selection{
+	color: red;
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+.buttons{
+	margin: 0 0 40px 60px;
+}
+  
+#pickteam{
+	color: red;
+}
