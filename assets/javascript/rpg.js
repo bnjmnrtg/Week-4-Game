@@ -31,6 +31,7 @@ var opponentToggle = false;
 var myTeam = ''; 
 var myHp = '';
 var opponentHp = '';
+var defeatedTeams = 0;
 
 
 
@@ -88,9 +89,16 @@ $('#attackbutton').on('click', function (attack) {
 		teamsBoxId = '';
 		alert("Team Defeated");
 		alert("Pick Another Team");
+		console.log(opponent)
+		$('#'+opponent).parent().remove()
 		opponent = '';
- 
-		}
+		defeatedTeams++
+	}
+
+	if (defeatedTeams === 3) {
+		console.log('need to reset')
+		alert("You Win")
+	}
 
 })
 
