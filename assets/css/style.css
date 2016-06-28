@@ -41,6 +41,7 @@ img{
 	border:solid #ccc;
 	display: inline-block;
 	z-index: -1;
+	background-color: rgb(7,36,73);
 }
 
 .selection{
